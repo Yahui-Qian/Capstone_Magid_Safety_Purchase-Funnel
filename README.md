@@ -13,21 +13,25 @@ Key objectives:
 ## 📂 Repository Structure  
 
 - **Week1_Code.ipynb** – Funnel foundations & diagnostics (by product type and price tier).  
-- **week_2/** – Multi-session analysis & time-to-conversion models  
+- **Week2/** – Multi-session & time-to-conversion analysis  
   - `Week2.ipynb` – Main Week 2 analysis notebook  
-  - `MagidConversionTimeModels.ipynb` – Conversion timing model development  
-  - `avg_time_to_conversion_by_segments.ipynb` – Segmented time-to-conversion exploration  
-  - `feature_engineering_time_to_conversion_modeling.ipynb` – Feature construction for timing models  
-  - `session_behaviours_initial_vs_returned.ipynb` – Comparison of first vs. returning sessions  
+  - `MagidConversionTimeModels.ipynb` – Conversion timing models  
+  - `avg_time_to_conversion_by_segments.ipynb` – Segmented conversion timing exploration  
+  - `feature_engineering_time_to_conversion_modeling.ipynb` – Feature construction for time-to-conversion models  
+  - `session_behaviours_initial_vs_returned.ipynb` – First vs. returning session behaviors  
   - `session_sequence_funnel.ipynb` – Session-level funnel sequence analysis  
   - `test.ipynb` – Testing/experiments  
-  - `decision_tree_classifier.png`, `tree_structure_new.png` – Visual outputs for Week 2 models  
+  - `decision_tree_classifier.png`, `tree_structure_new.png` – Visual outputs  
 - **Week3_Code.ipynb** – Funnel benchmarking by channel, weekday, and hour.  
 - **Week4_code.ipynb** – Customer journey clustering & typology identification.  
-- **Week6_Code.ipynb** – Predictive lead scoring for abandoned checkouts.  
-- **Week6_Code_Newdata_Olddata.ipynb** – Extended/archived Week 6 experiments.  
+- **Week6/** – Abandoned-cart prediction & lead scoring  
+  - `Week6_Code.ipynb` – Main Week 6 modeling notebook  
+  - `Week6_Code_Newdata_Olddata.ipynb` – Extended experiments with different datasets  
+  - `abandon_lead_scores.csv` – Predicted lead scores for abandoned checkouts  
+  - `abandon_retargting_topN.csv` – Ranked list for retargeting  
+  - `abandon_top5pct.csv`, `abandon_top10pct.csv`, `abandon_top20pct.csv` – High-probability reconversion segments  
 - **Prediction_Model.ipynb** – Final integrated predictive modeling (Logistic Regression, Random Forest, XGBoost).  
-- **/images/** – Visualization outputs for README and report.  
+- **images/** – Visualization outputs for README and report (funnel heatmaps, clustering, SHAP plots, etc.).  
 - **README.md** – Project documentation.  
 
 ---
