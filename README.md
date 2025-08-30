@@ -13,11 +13,22 @@ Key objectives:
 ## 📂 Repository Structure  
 
 - **Week1_Code.ipynb** – Funnel foundations & diagnostics (by product type and price tier).  
-- **Week3_Code.ipynb** – Multi-session analysis & time-to-conversion modeling.  
-- **Week4_Code.ipynb** – Customer journey clustering & typology identification.  
+- **week_2/** – Multi-session analysis & time-to-conversion models  
+  - `Week2.ipynb` – Main Week 2 analysis notebook  
+  - `MagidConversionTimeModels.ipynb` – Conversion timing model development  
+  - `avg_time_to_conversion_by_segments.ipynb` – Segmented time-to-conversion exploration  
+  - `feature_engineering_time_to_conversion_modeling.ipynb` – Feature construction for timing models  
+  - `session_behaviours_initial_vs_returned.ipynb` – Comparison of first vs. returning sessions  
+  - `session_sequence_funnel.ipynb` – Session-level funnel sequence analysis  
+  - `test.ipynb` – Testing/experiments  
+  - `decision_tree_classifier.png`, `tree_structure_new.png` – Visual outputs for Week 2 models  
+- **Week3_Code.ipynb** – Funnel benchmarking by channel, weekday, and hour.  
+- **Week4_code.ipynb** – Customer journey clustering & typology identification.  
 - **Week6_Code.ipynb** – Predictive lead scoring for abandoned checkouts.  
+- **Week6_Code_Newdata_Olddata.ipynb** – Extended/archived Week 6 experiments.  
 - **Prediction_Model.ipynb** – Final integrated predictive modeling (Logistic Regression, Random Forest, XGBoost).  
-- **/images/** – Visualization outputs used in README and report.  
+- **/images/** – Visualization outputs for README and report.  
+- **README.md** – Project documentation.  
 
 ---
 
